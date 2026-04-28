@@ -30,9 +30,10 @@
             border-radius: 10px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
             margin-bottom: 20px;
+            text-align: center; /* 이미지와 링크 중앙 정렬 */
         }
-        h2 { border-bottom: 2px solid #2c3e50; padding-bottom: 10px; color: #2c3e50; }
-        ul { list-style-type: none; padding: 0; }
+        h2 { border-bottom: 2px solid #2c3e50; padding-bottom: 10px; color: #2c3e50; text-align: left; }
+        ul { list-style-type: none; padding: 0; text-align: left; }
         li {
             background: #e8f4fd;
             margin: 8px 0;
@@ -41,6 +42,18 @@
             display: inline-block;
             margin-right: 5px;
         }
+        .youtube-link {
+            display: inline-block;
+            background-color: #e74c3c;
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .youtube-link:hover { background-color: #c0392b; }
+        img { border-radius: 10px; border: 5px solid #f1f1f1; margin: 15px 0; max-width: 100%; height: auto; }
         footer { text-align: center; color: #7f8c8d; font-size: 0.9em; margin-top: 50px; }
     </style>
 </head>
@@ -53,18 +66,27 @@
 
     <section>
         <h2>👨‍💻 자기소개</h2>
-        <p><strong>"홍진벽산, 인생은 과정입니다. 하루 하루 최선을 다하는 것이 내 삶이죠"</strong></p>
+        <p style="text-align: left;"><strong>"홍진벽산, 인생은 과정입니다. 하루 하루 최선을 다하는 것이 내 삶이죠"</strong></p>
+        
+        <img src="https://via.placeholder.com/600x300?text=Jangmose+Lab+Activity+Photo" alt="장모세 랩 활동 사진">
     </section>
 
     <section>
-        <h2>🧪 연구 주제 및 관심사</h2>
+        <h2>https://www.youtube.com/@장동희TV</h2>
+        <p>인공지능과 디지털 리터러시 지식을 나누는 공간입니다.</p>
+        <a href="https://www.youtube.com/@장동희TV" class="youtube-link" target="_blank">▶ 장모세의 유튜브 채널 놀러오기</a>
+    </section>
+
+    <section>
+        <h2>연구 주제 및 관심사</h2>
         <ul>
             <li>#시니어 건강관리</li>
+            <li>#시니어 생활정보</li>
+            <li>#스마트폰 사용법</li>
+            <li>#유튜브 영상편집</li>
             <li>#인공지능 AI 사용법</li>
             <li>#디지털 리터러시</li>
             <li>#디지털 복지</li>
-            <li>#스마트폰 사용법</li>
-            <li>#유튜브 영상편집</li>
         </ul>
     </section>
 
